@@ -10,4 +10,7 @@
     --color-brand: #1976D2 ;
   }
   
-
+  @utility container {
+    margin-inline: auto;
+    padding-inline: 2rem;
+  }
