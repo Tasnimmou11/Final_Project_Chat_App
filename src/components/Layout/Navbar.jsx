@@ -37,10 +37,10 @@ const Navbar = () => {
             <CgProfile className="w-6 h-6 hover:text-brand" />
           </Link>
         </div>
-        <div className="group relative px-4 cursor-pointer">
+        <div className=" group relative px-4 cursor-pointer">
           <Link
             to="/menu"
-            className="flex h-10 w-10 items-center justify-center rounded-full hover:bg-gray-200"
+            className="  flex h-10 w-10 items-center justify-center rounded-full hover:bg-gray-200"
           >
             <HiBars3 className="w-6 h-6 hover:text-brand" />
           </Link>
