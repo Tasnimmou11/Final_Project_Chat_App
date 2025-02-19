@@ -4,7 +4,7 @@ import { Link } from 'react-router';
 
 const Login = () => {
   return (
-    <div className="relative py-3 max-w-sm sm:mx-auto">
+    <div className="relative py-3 max-w-sm sm:mx-auto  ">
   <div
     className="relative px-4 py-10 bg-white mx-8 md:mx-0 shadow-lg rounded-3xl sm:p-10"
   >

@@ -2,7 +2,7 @@ import React from 'react'
 import { Link } from 'react-router'
 const Menu = () => {
   return (
-    <div className=" mx-auto  w-fit h-fit bg-white p-5 shadow-md shadow-gray-200 rounded-md flex flex-col">
+    <div className=" m-auto   w-fit h-fit bg-white p-5 shadow-md shadow-gray-200 rounded-md flex flex-col">
     <ul className="w-full flex  flex-col gap-2 ">
       <Link to ="/setting"
         className="flex-center cursor-pointer p-16-semibold w-full whitespace-nowrap"
