@@ -5,11 +5,12 @@ import Registration from "./pages/Registration";
 import Layout from "./components/Layout/Layout";
 import Profile from "./pages/Profile";
 import Chat from "./pages/Chat";
-import Menu from "./pages/Menu";
+
 import UserList from "./pages/UserList";
 import FriendRequstList from "./pages/FriendRequstList";
 import FriendList from "./pages/FriendList";
 import BlockList from "./pages/BlockList";
+import LogOut from "./pages/LogOut";
 
 
 
@@ -32,10 +33,10 @@ function App() {
       <Route path="/login" element={<Login/>} />
       <Route path="/registration" element={<Registration />} />
         <Route path="/" element={<Layout/>} > 
-        <Route path="/" element={<Home/>} />
+        <Route index element={<Home/>} />
         <Route path="/profile" element={<Profile/>} />
         <Route path="/chat" element={<Chat/>} />
-        <Route path="/menu" element={<Menu/>} />
+        <Route path="/logout" element={<LogOut/>} />
         <Route path="/userlist" element={<UserList/>} />
         <Route path="/friendrequestlist" element={<FriendRequstList/>} />
         <Route path="/friendlist" element={<FriendList/>} />

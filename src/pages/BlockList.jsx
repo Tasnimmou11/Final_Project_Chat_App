@@ -9,7 +9,7 @@ const BlockList = () => {
                   <h1 className='font-bold text-2xl w-1/2 ml-10'>BlockList</h1></div>
                 <div className='flex items-center p-2 border rounded-xl w-1/2 mr-5'>
                 <GoSearch />
-                <input type="text" placeholder='Search'/>
+                <input type="text" placeholder='Search' className='px-2 outline-none'/>
                 </div>
                 </div>
               
