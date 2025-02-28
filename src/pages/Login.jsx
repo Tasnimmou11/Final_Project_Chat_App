@@ -4,9 +4,9 @@ import { Link } from 'react-router';
 
 const Login = () => {
   return (
-    <div className="relative py-3 max-w-sm sm:mx-auto  ">
+    <div className=" h-screen flex items-center justify-center ">
   <div
-    className="relative px-4 py-10 bg-white mx-8 md:mx-0 shadow-lg rounded-3xl sm:p-10"
+    className="relative max-w-sm sm:mx-auto  px-4 py-10 bg-white mx-8 md:mx-0 shadow-lg rounded-3xl sm:p-10"
   >
     <div className="max-w-md mx-auto">
       <h1 className="font-open-sans font-bold text-2xl text-brand text-center">
