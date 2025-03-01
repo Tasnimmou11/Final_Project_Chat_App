@@ -14,7 +14,7 @@ const Registration = () => {
 
   
   const handleSignUp = () => {
-   
+  
 
     createUserWithEmailAndPassword(auth, userData.email, userData.password)
       .then((userCredential) => {
@@ -116,3 +116,7 @@ const Registration = () => {
 };
 
 export default Registration;
+
+
+
+
